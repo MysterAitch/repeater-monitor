@@ -1,0 +1,11 @@
+[
+  {
+    "ip_address": "192.168.1.1",
+    "description": "Test Device 1",
+    "model": "Model X",
+    "zabbix_host_id": 10,
+    "zabbix_host_name": "TestHost 1"
+  },
+  { "ip_address": "192.168.1.2",     "description": "Test Device 2",    "model": "Model X",    "zabbix_host_id": 11,    "zabbix_host_name": "TestHost 2"  },
+  { "ip_address": "192.168.1.3",     "description": "Test Device 3",    "model": "Model Y",    "zabbix_host_id": 12,    "zabbix_host_name": "TestHost 3"  }
+]
