@@ -1,0 +1,12 @@
+stages:
+  - test
+
+before_script:
+  - python --version
+  - pip install -r requirements.txt
+  - pip install -r test-requirements.txt
+
+test:
+  stage: test
+  script:
+    - pytest
